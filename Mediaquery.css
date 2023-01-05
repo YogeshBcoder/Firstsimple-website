@@ -1,0 +1,179 @@
+#Container{
+    display: flex; 
+}
+#First{
+    width:auto;
+    height: fit-content;
+}
+#First h5{
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+}
+#Second{
+    width: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+    min-width: 800px;  
+    max-width: none; 
+}
+#Second h5{
+    padding-left: 40px;
+    font-size: medium;
+}
+
+#info{
+    list-style: none;
+    line-height: 40px;
+    
+}
+.col-3 {width: 25%;}
+#list{
+    list-style: none;
+    line-height: 2;
+  }
+#list li::before {
+    content: "\2022";
+    color: rgb(235, 38, 48);
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.2em;
+  }
+#Resume{
+    width: 280px;
+    height: 290px;
+    background-color: rgba(73, 82, 161, 0.623);
+}
+#Terry img{
+    border-radius: 100%;
+    justify-content: center;
+    margin-left: 36px;
+    margin-top: 40px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.dummy ul{
+    list-style: none;
+    background-color: rgb(73, 82, 161, 0.623);
+}
+#Button Button{
+    border-color: aliceblue;
+}
+.Line h1{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 20px;
+    
+    color: rgb(62, 31, 66);
+}
+ h5{
+    background-color: rgba(73, 82, 161, 0.623);
+    padding: 5px;
+}  
+
+.sam i{
+    color: rgb(235, 142, 67);  
+} 
+.sam ul{
+    display: flex;
+    list-style: none;
+    letter-spacing: 55px;
+}
+.sam p{
+    word-spacing: 30px;
+    margin-left: 13px;
+}
+.sam .a{
+    margin-left: 40px;
+    
+}
+#Font{
+    text-align: center;
+    word-spacing: 20px;
+}
+#Font ul{
+    margin-left: -30px;
+}
+#Font ul li{
+    background-color: rgb(73, 82, 161, 0.623);
+    padding: 5px;
+    list-style: none;
+    display: inline-flex;
+}
+#Font ul .Font{
+    background-color: rgb(206, 211, 228);
+}
+#imagecontent{
+    margin-left: 5px;
+    word-spacing: 10px;
+    margin-top: -15px;
+}
+#Self{
+    line-height: 2;
+    margin-top: -15px;
+}
+#headcontent{
+    font-weight: bold;
+    background-color: rgb(206, 211, 228);
+    box-sizing: content-box;
+    margin-top: 20px;
+    line-height: 30px;
+    height: 120px;
+    margin-left: -57px;
+    padding-left: 60px;
+    content: normal;
+}
+#headcontent span{
+    font-size: large;
+    font-family: monospace;
+
+}
+#Tittle{
+    color: rgb(141, 65, 65);
+    font-weight: lighter;
+    font-size: larger;
+    
+
+}
+.Details{
+    font-weight: 500;
+}
+#Acadamic{
+    list-style: none;
+    font-weight: bold;
+}
+.Project{
+    margin-left: 10px;
+    font-weight: normal;
+}
+.Project1{
+    margin-left: 79px;
+    font-weight: normal;
+}
+.Project2{
+    margin-left: 26px;
+    font-weight: normal;
+}
+.Project3{
+    margin-left: 48px;
+    font-weight: normal;
+}
+#per{
+    background-color: rgb(235, 142, 67);
+    color: rgb(46, 45, 45);
+}
+#sport {
+        margin-left: 30px;
+}   
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+  .col-{
+  width: 100%;
+}
+}
+#company{
+    margin-left: 30px;
+}
+
+
+
